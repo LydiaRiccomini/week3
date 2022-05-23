@@ -28,13 +28,25 @@ public class week3Assignment {
 	}
 	
 	static void step2() {
-		
+		String[] names = {
+				"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"
+		};
+			for (String name : names) {
+				System.out.println(name.length());
+				
+			}
 	}
 	
-	
+	/*
+	 * 3.	How do you access the last element of any array?
+	 *     
+	 *     
+	 *     
+	 */
 	
 	public static void main(String[] aarg) {
 		step1();  
+		step2();
 		
 	}
 	
